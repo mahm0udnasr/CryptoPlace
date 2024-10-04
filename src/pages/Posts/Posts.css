@@ -2,7 +2,7 @@
   padding: 20px 140px 100px;
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   .adding-post {
     position: fixed;
     bottom: 5%;
@@ -24,5 +24,16 @@
     height: 100%;
     position: fixed;
     background-color: rgba(0,0,0,0.2);
+  }
+}
+@media (max-width: 768px) {
+  .posts {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 425px) {
+  .posts {
+    gap: 10px;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
