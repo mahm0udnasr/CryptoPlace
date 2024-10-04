@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.app {
+  min-height: 100vh;
+  color: #fff;
+  background: linear-gradient(#0b004e,#1d152f ,#002834);
+}
